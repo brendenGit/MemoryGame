@@ -13,11 +13,21 @@ s.  Created new repo on GitHub titled "MemoryGame"
     git remote add origin https://github.com/brendenGit/MemoryGame.git
     git push -u origin master
     code .
-    
+
 
 3.  Create a local branch and add and commit some files
 s.  git checkout -b new_buttons
+    git status
+    git add .
+    git status
+    git commit -m "added css for new button style"
 
 
 4.  Push that local branch to GitHub to create a remote branch
-s.  
+s.  git push origin new_buttons
+
+Part II - Put your memory game on GitHub pages
+-------------------------------
+Using GitHub pages, deploy your memory game from the previous unit so that you can share them with anyone!
+Memory game repo is deployed with 2 branches, master and new_buttons.
+https://github.com/brendenGit/MemoryGame
