@@ -14,14 +14,12 @@ s.  Created new repo on GitHub titled "MemoryGame"
     git push -u origin master
     code .
 
-
 3.  Create a local branch and add and commit some files
 s.  git checkout -b new_buttons
     git status
     git add .
     git status
     git commit -m "added css for new button style"
-
 
 4.  Push that local branch to GitHub to create a remote branch
 s.  git push origin new_buttons
