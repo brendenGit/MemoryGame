@@ -1,0 +1,23 @@
+Part I
+-------------------------------
+1.  Create a local repository and add and commit some files
+s.  mkdir GitHub_Exercise
+    git init
+    touch github_exercise.txt index.html script.js style.css
+    git status
+    git add .
+    git commit -m "created txt file for exercise and all project files"
+
+2.  Create a remote repository and push your code from the local repo to the remote
+s.  Created new repo on GitHub titled "MemoryGame"
+    git remote add origin https://github.com/brendenGit/MemoryGame.git
+    git push -u origin master
+    code .
+    
+
+3.  Create a local branch and add and commit some files
+s.  git checkout -b new_buttons
+
+
+4.  Push that local branch to GitHub to create a remote branch
+s.  
