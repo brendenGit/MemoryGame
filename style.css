@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(19, 19, 19);
+  background-color: #e3a6ba;
+}
+
+#gameBox {
+  margin: auto;
+  margin-top: 5 rem;
+  width: 50%;
+  padding: 10px;
+}
+
+#gameBox div {
+  border: 1px solid black;
+  width: 15%;
+  height: 100px;
+  margin: 10px;
+  display: inline-block;
+  transition: background-color 0.3s;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.red {
+  background-color: white;
+}
+
+.red.clicked {
+  background-color: red;
+}
+
+.blue {
+  background-color: white;
+}
+
+.blue.clicked {
+  background-color: blue;
+}
+
+.green {
+  background-color: white;
+}
+
+.green.clicked {
+  background-color: green;
+}
+
+.orange {
+  background-color: white;
+}
+
+.orange.clicked {
+  background-color: orange;
+}
+
+.purple {
+  background-color: white;
+}
+
+.purple.clicked {
+  background-color: purple;
+}
+
+.hidden {
+  display: none;
+}
+
+#startGameBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+#startGameBtn {
+  margin-top: 1em;
+  width: 20%;
+}
